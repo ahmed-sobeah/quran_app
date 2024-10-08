@@ -13,11 +13,8 @@ class QuranDetailsScreen extends StatefulWidget {
 
 class _QuranDetailsScreenState extends State<QuranDetailsScreen> {
   List <String> verses=[];
-
   @override
-
   Widget build(BuildContext context) {
-
     SuraItem suraItem = ModalRoute.of(context)?.settings.arguments as SuraItem;
     if(verses.isEmpty)readQuranFile(suraItem.index+1);
     return Container(
@@ -44,4 +41,3 @@ class _QuranDetailsScreenState extends State<QuranDetailsScreen> {
 
   }
 }
-

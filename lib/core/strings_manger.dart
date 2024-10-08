@@ -6,4 +6,5 @@ class StringsManger{
   static const String radioLabel ='Radio';
   static const String versesNumberLabel ='Verses Number';
   static const String chapterNameLabel ='Chapter Names';
+  static const String hadithNameLabel ='El-Hadith';
 }
