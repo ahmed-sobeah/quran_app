@@ -7,4 +7,5 @@ class StringsManger{
   static const String versesNumberLabel ='Verses Number';
   static const String chapterNameLabel ='Chapter Names';
   static const String hadithNameLabel ='El-Hadith';
+  static const String sebhaNameLabel ='Aded El Tasbehat';
 }
